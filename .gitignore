@@ -1,46 +1,4 @@
-# created by virtualenv automatically
-# (Ignore everything by default)
-*
-# But keep these files:
-!.gitignore
-!*/               # Allow subdirectories
-!*.py             # Allow Python files
-!requirements.txt # Keep dependencies list
-!README.md        # Keep project description
-!app/             # Example: if your Flask app is in app/
-!static/
-!templates/
-
-# === Python ===
-**.py[cod]
-*$py.class
-
-# === Flask ===
-instance/
-*.db
-*.sqlite3
-*.log
 .env
 .venv/
 venv/
-env/
-*.pid
 
-# === Virtual environments ===
-ENV/
-env.bak/
-env_old/
-
-# === Configuration / Secrets ===
-*.env
-config.json
-secrets.json
-
-# === Byte-compiled / optimized / DLL files ===
-*.pyc
-*.pyo
-*.pyd
-
-# === Docker ===
-*.pid
-docker-compose.override.yml
