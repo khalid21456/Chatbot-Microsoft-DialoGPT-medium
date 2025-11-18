@@ -20,3 +20,48 @@ Install the necessary dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Installation
+
+### 1. Clone the repository:
+```bash
+git clone <repository_url>
+cd khalid21456-chatbot-microsoft-dialogpt-medium
+```
+
+### 2. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### 1. Run the Flask application:
+```bash
+python app.py
+```
+
+**Open a web browser and navigate to http://127.0.0.1:5000/ to access the chat interface.**
+
+## File Structure
+
+```bash
+khalid21456-chatbot-microsoft-dialogpt-medium/
+├── app.py             # Main application file
+├── requirements.txt   # List of dependencies
+├── static/
+│   └── style.css      # CSS stylesheet for styling the chat interface
+└── templates/
+    └── chat.html      # HTML template for the chat interface
+```
+
+## Code Overview
+
+
+
+
+
+
+
+
